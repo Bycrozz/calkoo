@@ -1,0 +1,26 @@
+{ 
+        "URLs": {
+            "mainPage": "https://www.calkoo.com/en/vat-calculator"
+        },
+        "fields": {
+            "selectCountry": "select[name=Country]",
+            "VATRate13": "label[for=VAT_13]",
+            "VATRate20": "label[for=VAT_20]",
+            "optPriceNoVat": "label[for='F1']",
+            "optVatPrice": "label[for='F2']",
+            "optPriceInclVat": "label[for='F3']",
+            "netValue": "#NetPrice",
+            "VATValue": "#VATsum",
+            "grossValue": "#Price",
+            "clearButton": "input[name='clear']",
+            "VATpctNET": "#VATpct2",
+            "VATpctGross": "#VATpct1",
+            "chart": "svg[aria-label='A chart.']"
+        },
+        "testData": {
+            "multipleRatesCountry": "Austria",
+            "oneRAteCountry" : "Belarus", 
+            "totalValueWithVAT" : 500
+
+        }
+    }
